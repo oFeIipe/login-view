@@ -6,7 +6,7 @@ import { router } from 'expo-router';
 import { faKey } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
-import { styles } from '../../appStyles/styles';
+import { styles } from '../appStyles/styles';
 
 export default function Index() {
     const [email, setEmail] = useState("");

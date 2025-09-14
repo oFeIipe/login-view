@@ -6,7 +6,7 @@ import { router } from 'expo-router';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faKey, faUser } from '@fortawesome/free-solid-svg-icons';
 
-import { styles } from '../../appStyles/styles';
+import { styles } from '../appStyles/styles';
 
 export default function Cadastro(){
     const [name, setName] = useState("");
